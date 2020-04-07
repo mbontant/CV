@@ -1,0 +1,35 @@
+#blocpage
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 100%;
+}
+#conteneurgauche
+{
+	width: 30%;
+	background-color: #34d8eb;
+	text-align: center;
+}
+#conteneurgauche h2
+{
+	background-color: black;
+	color: #34d8eb;
+}
+em
+{
+	color: #34d8eb;
+}
+#photo
+{
+	overflow: hidden;
+	border-radius: 150px;
+	width: 150px;
+	height: 150px;
+}
+.colonnedroite h2
+{
+	text-decoration: underline #34d8eb;
+
+}
