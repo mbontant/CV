@@ -1,7 +1,11 @@
+{
+	"github_token : " 52e08f33ac81cdfc94c26dbb32d8eff3ecb7da85"
+}
+
 #blocpage
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-left: 50px;
 	margin-right: 50px;
 	width: 100%;
@@ -32,4 +36,22 @@ em
 {
 	text-decoration: underline #34d8eb;
 
+}
+/* gestion des loisirs*/
+.blanc
+{
+	color: black;
+	display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+i
+{
+	color: #34d8eb;
+}
+span
+{
+	text-decoration: underline #34d8eb;
 }
