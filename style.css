@@ -1,11 +1,24 @@
 {
-	"github_token : " 52e08f33ac81cdfc94c26dbb32d8eff3ecb7da85"
+	github_token : "52e08f33ac81cdfc94c26dbb32d8eff3ecb7da85"
 }
+/* écran <1280px*/
 
 /* gestion générale*/
-body
+@font-face {
+    font-family: 'aileronlight';
+    src: url('Aileron-Light-webfont.eot');
+    src: url('Aileron-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Light-webfont.woff2') format('woff2'),
+         url('Aileron-Light-webfont.woff') format('woff'),
+         url('Aileron-Light-webfont.ttf') format('truetype'),
+         url('Aileron-Light-webfont.svg#aileronlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+table
 {
-    font-family: Arial, Arial, Verdana, sans-serif;
+	width: 100%;
 }
 #blocpage
 {
@@ -21,11 +34,18 @@ body
 	width: 30%;
 	background-color: #34d8eb;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 #conteneurgauche h2
 {
 	background-color: black;
 	color: #34d8eb;
+}
+#photo
+{
+	padding-top: 50px;
 }
 
 /* gestion partie droite*/
@@ -37,23 +57,33 @@ i
 #colonnedroite h2
 {
 	text-decoration: underline #34d8eb;
+	display : inline;
 
 }
 /* gestion de la photo*/
-#photo
+#photostyle
 {
-	overflow: hidden;
-	border-radius: 125px;
+	border-radius: 150px;
 	width: 150px;
 	height: 150px;
+	border: 2px black solid;
+
 }
 /* gestion contact*/
 #contact
 {
 	text-align: left;
+	padding-left: 25px;
+	padding-top: 30px;
 }
 /* gestion A Propos*/
-
+#propos
+{
+	text-align: left;
+	padding-left: 25px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 /* gestion des loisirs*/
 .blanc
 {
@@ -65,7 +95,7 @@ i
     margin-right: 20px;
     margin-bottom: 20px;
 }
-.loisirs
+#loisirs
 {
 
 }
@@ -79,8 +109,16 @@ span
 	text-decoration: underline #34d8eb;
 }
 /* gestion formation*/
+#formation
+{
+	margin-bottom: 50px;
+}
 
 /* gestion experience pro*/
+#exp
+{
+	margin-bottom: 50px;
+}
 
 /* gestion recommandations*/
 
