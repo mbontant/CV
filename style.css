@@ -20,6 +20,15 @@ table
 {
 	width: 100%;
 }
+.texte
+{
+	width: 50%;
+	padding-top: 5%;
+}
+.point
+{
+	width: 7%;
+}
 #blocpage
 {
 	display: flex;
@@ -45,7 +54,7 @@ table
 }
 #photo
 {
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 /* gestion partie droite*/
@@ -66,7 +75,18 @@ i
 	border-radius: 150px;
 	width: 150px;
 	height: 150px;
-	border: 2px black solid;
+	border: 3px black solid;
+
+}
+/* gestion identité*/
+.identite
+{
+	margin-top: 75px;
+	padding-bottom: 50px;
+}
+.identite h1
+{
+	font-size: 2em;
 
 }
 /* gestion contact*/
@@ -74,15 +94,16 @@ i
 {
 	text-align: left;
 	padding-left: 25px;
-	padding-top: 30px;
+	padding-top: 25px;
+	padding-bottom: 40px;
 }
 /* gestion A Propos*/
 #propos
 {
 	text-align: left;
 	padding-left: 25px;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 25px;
+	padding-bottom: 500px;
 }
 /* gestion des loisirs*/
 .blanc
