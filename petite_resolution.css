@@ -20,15 +20,15 @@
 #blocpage
 {
 	display: flex;
-	flex-direction: column;
-	
+	flex-direction: column-reverse;	
 }
+
+
 /* gestion partie gauche*/
 #conteneurgauche
 {
 	display: flex;
 	text-align: center;
-	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -83,8 +83,6 @@ i
 {
 	color: black;
 	font-size: 40px;
-	display: flex;
-    justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
