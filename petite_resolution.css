@@ -17,11 +17,7 @@
     font-style: normal;
 
 }
-#blocpage
-{
-	display: flex;
-	flex-direction: column-reverse;	
-}
+
 
 
 /* gestion partie gauche*/

@@ -1,7 +1,7 @@
 {
-	github_token : "52e08f33ac81cdfc94c26dbb32d8eff3ecb7da85"
+github_token : "52e08f33ac81cdfc94c26dbb32d8eff3ecb7da85";
 }
-/* écran <1280px*/
+
 
 /* gestion générale*/
 @font-face {
@@ -15,6 +15,10 @@
     font-weight: normal;
     font-style: normal;
 
+}
+body
+{
+	font-family: 'aileronlight', Arial, sans_serif;
 }
 table
 {
@@ -58,6 +62,15 @@ table
 }
 
 /* gestion partie droite*/
+#colonnedroite
+{
+	width: 57%;
+}
+.style
+{
+	font-size: 30px;
+	padding-right: 15px;
+}
 i
 {
 	color: #34d8eb;
@@ -65,7 +78,6 @@ i
 
 #colonnedroite h2
 {
-	text-decoration: underline #34d8eb;
 	display : inline;
 
 }
@@ -110,8 +122,6 @@ i
 {
 	color: black;
 	font-size: 40px;
-	display: flex;
-    justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -147,4 +157,40 @@ span
 {
 	display: flex;
 	justify-content: space-between;
+	margin-right: 15%;
+	margin-top: 5%;
 }
+
+/* =============================================== RESPONSIVE =============================================*/
+@media screen and (max-width: 1024px)
+{
+#blocpage
+{
+	display: flex;
+	flex-direction: column-reverse;	
+}
+#conteneurgauche
+{
+	width: 95%;
+}
+#photo
+{
+	display: none;
+}
+#propos
+{
+	padding-bottom: 100px;
+}
+#recommandations
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+}
+#colonnedroite
+{
+	width: 100%;
+	padding-bottom: 100px;
+}
+}
+
