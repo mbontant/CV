@@ -167,6 +167,13 @@ em
 }
 
 /* =============================================== RESPONSIVE =============================================*/
+@media all and (min-width: 1920px)
+{
+body
+{
+	font-size: 1.5em;
+}
+}
 @media all and (min-width: 768px) and (max-width: 1439px)
 {
 #blocpage
@@ -208,6 +215,7 @@ table
 {
 	display: flex;
 	flex-direction: column-reverse;	
+	margin-left: 25px;
 }
 #conteneurgauche
 {
@@ -234,4 +242,18 @@ hr
 {
 	width:15%;
 }
+tr
+{
+	display:flex;
+	flex-direction: row;
 }
+h2
+{
+	font-size: 1.2em;
+}
+.identite h1
+{
+	font-size: 1.3em;
+}
+}
+
