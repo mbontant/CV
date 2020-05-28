@@ -238,6 +238,10 @@ table
 {
 	padding-bottom: 5%;
 }
+.texte
+{
+	padding-bottom: 10%;
+}
 hr
 {
 	width:15%;
@@ -272,9 +276,6 @@ h2
 {
 	font-size: 1.5em;
 }
-.texte
-{
-	padding-bottom: 10%;
-}
+
 }
 
