@@ -37,8 +37,8 @@ table
 {
 	display: flex;
 	justify-content: space-around;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
 	width: 100%;
 }
 /* gestion partie gauche*/
@@ -58,7 +58,7 @@ table
 }
 #photo
 {
-	padding-top: 100px;
+	padding-top: 55%;
 }
 
 /* gestion partie droite*/
@@ -69,7 +69,7 @@ table
 .style
 {
 	font-size: 30px;
-	padding-right: 15px;
+	padding-right: 5%;
 }
 i
 {
@@ -79,7 +79,7 @@ i
 #colonnedroite h2
 {
 	border-bottom: 2px solid #34d8eb;
-	padding-bottom: 15px;
+	padding-bottom: 5%;
 }
 
 }
@@ -95,8 +95,8 @@ i
 /* gestion identité*/
 .identite
 {
-	margin-top: 75px;
-	padding-bottom: 50px;
+	margin-top: 5%;
+	padding-bottom: 5%;
 }
 .identite h1
 {
@@ -107,38 +107,35 @@ hr
 {
 border: 1px solid #34d8eb;
 width: 5%;
-margin-top: -14px;
-margin-left: 2px;
+margin-top: -2%;
+margin-left: 1%;
 }
 /* gestion contact*/
 #contact
 {
 	text-align: left;
-	padding-left: 25px;
-	padding-top: 25px;
-	padding-bottom: 40px;
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 /* gestion A Propos*/
 #propos
 {
 	text-align: left;
-	padding-left: 25px;
-	padding-top: 25px;
-	padding-bottom: 500px;
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 /* gestion des loisirs*/
 .blanc
 {
 	color: black;
 	font-size: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
-#loisirs
-{
 
-}
 /* gestion de l identité*/
 em
 {
@@ -147,13 +144,13 @@ em
 /* gestion formation*/
 #formation
 {
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 }
 
 /* gestion experience pro*/
 #exp
 {
-	margin-bottom: 50px;
+	margin-bottom: 5%;
 }
 
 /* gestion recommandations*/
@@ -174,6 +171,7 @@ body
 	font-size: 1.5em;
 }
 }
+
 @media all and (min-width: 768px) and (max-width: 1439px)
 {
 #blocpage
@@ -191,7 +189,7 @@ body
 }
 #propos
 {
-	padding-bottom: 100px;
+	padding-bottom: 5%;
 }
 #recommandations
 {
@@ -202,24 +200,26 @@ body
 #colonnedroite
 {
 	width: 100%;
-	padding-bottom: 100px;
+	padding-bottom: 5%;
 }
 table
 {
 	width: 80%;
 }
 }
+
 @media all and (max-width: 425px)
 {
 #blocpage
 {
 	display: flex;
 	flex-direction: column-reverse;	
-	margin-left: 25px;
+	margin-left: 5%;
 }
 #conteneurgauche
 {
-	width: 95%;
+	width: 100%;
+	margin-left: -5%;
 }
 #colonnedroite
 {
@@ -232,20 +232,29 @@ table
 #recommandations
 {
 	display: block;
-	margin-right: 15px;
+	margin-right: 5%;
 }
 #propos
 {
-	padding-bottom: 15px;
+	padding-bottom: 5%;
 }
 hr
 {
 	width:15%;
+	margin-top: -5%;
+	margin-left: 1%;
 }
 tr
 {
-	display:flex;
-	flex-direction: row;
+	display:block;
+}
+tbody
+{
+	display: block;
+}
+td
+{
+	display: block;
 }
 h2
 {
@@ -254,6 +263,14 @@ h2
 .identite h1
 {
 	font-size: 1.3em;
+}
+.point
+{
+	display: none;
+}
+.blanc
+{
+	font-size: 1.5em;
 }
 }
 
