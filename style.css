@@ -58,7 +58,7 @@ table
 }
 #photo
 {
-	padding-top: 55%;
+	padding-top: 20%;
 }
 
 /* gestion partie droite*/
@@ -85,12 +85,10 @@ i
 }
 
 /* gestion de la photo*/
-#photostyle
+#conteneurgauche img
 {
-	border-radius: 150px;
-	width: 150px;
-	height: 150px;
-	border: 3px black solid;
+	border-radius: 50%;
+	
 }
 /* gestion identité*/
 .identite
@@ -115,8 +113,8 @@ margin-left: 1%;
 {
 	text-align: left;
 	padding-left: 5%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 /* gestion A Propos*/
 #propos
@@ -124,7 +122,7 @@ margin-left: 1%;
 	text-align: left;
 	padding-left: 5%;
 	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-bottom: 95%;
 }
 /* gestion des loisirs*/
 .blanc
@@ -241,6 +239,7 @@ table
 .texte
 {
 	padding-bottom: 10%;
+	width: 95%;
 }
 hr
 {
@@ -264,7 +263,7 @@ h2
 {
 	font-size: 1.2em;
 }
-.identite h1
+header h1
 {
 	font-size: 1.3em;
 }
