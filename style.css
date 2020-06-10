@@ -1,7 +1,3 @@
-{
-github_token : "52e08f33ac81cdfc94c26dbb32d8eff3ecb7da85";
-}
-
 
 /* gestion générale*/
 @font-face {
@@ -82,12 +78,13 @@ i
 	padding-bottom: 5%;
 }
 
-}
 
 /* gestion de la photo*/
-#conteneurgauche img
+#photostyle
 {
-	border-radius: 50%;
+	width: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
 	
 }
 /* gestion identité*/
